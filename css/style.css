@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    background-color: #181818; 
+    color: #fff;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #282828; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#chanceButton {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Добавляем плавную анимацию перехода */
+    overflow: hidden; /* Скрываем переполнение */
+}
+
+#chanceButton:hover {
+    background: linear-gradient(to right, #4CAF50, #00ff08); /* Добавляем градиент */
+}
+
+.message-container {
+    position: fixed;
+    bottom: 20px; 
+    left: 20px;
+    transform: translateY(100%); 
+    background-color: #282828; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0; 
+    transition: opacity 0.3s, transform 0.3s; 
+    text-align: center;
+    color: #fff; 
+}

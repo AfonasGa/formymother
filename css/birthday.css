@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background-color: #181818; /* Тёмно-серый фон */
+    color: #fff;  /* Белый цвет текста */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.birthday-container {
+    text-align: center;
+    background-color: #282828; /* Темно-серый фон контейнера */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+}
+
+.stickers {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.stickers img {
+    margin: 0 10px;
+    height: 100px;
+}
+
+a {
+    color: #fff; /* Белый текст */
+}
